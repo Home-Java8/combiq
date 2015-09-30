@@ -1,0 +1,552 @@
+body {
+    font: 400 16px/1.25 Arial,Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 160%;
+    font-family: Verdana,sans-serif;
+}
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+
+    .co-questionnaire-table {
+        font-size: 12px;
+    }
+}
+
+html /deep/ a,
+a {
+    color: #007fb6;
+    text-decoration: none;
+}
+html /deep/ a:hover,
+a:hover {
+    color: #00b7ff;
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.co-mainhead {
+    background-image: url('images/flat-logo.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 290px;
+}
+
+@media (max-width: 992px) {
+    .co-mainhead {
+        background: none;
+    }
+}
+
+.co-mainhead-content {
+    padding-top: 60px;
+}
+
+.co-mainhead-content p {
+    margin-bottom: 35px;
+}
+
+.go-github-btn {
+    display: inline-block;
+    background: white;
+    border: 1px solid #FF5752;
+    line-height: 3.5em;
+    padding: 0 0 0 1em;
+    margin-bottom: 1em;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #666;
+    margin-left: 35px;
+}
+
+.go-github-btn:hover {
+    background: white;
+}
+
+.go-github-btn .arrow {
+    display: inline-block;
+    line-height: 3.5em;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    width: 2.5em;
+    -webkit-transition: margin 200ms;
+    transition: margin 200ms;
+    margin-left: .75em;
+    background-color: #FF5752;
+}
+
+.go-github-btn:hover .arrow {
+    margin-left: 1.25em;
+}
+
+.co-toolbar {
+    background-color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+.co-header {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.co-brand {
+    color: #000000;
+}
+
+.co-sidebar-title {
+    color: #222;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.co-mainer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#368290+0,093a5b+100 */
+    background: #368290; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #368290 0%, #093a5b 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#368290), color-stop(100%,#093a5b)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #368290 0%,#093a5b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #368290 0%,#093a5b 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #368290 0%,#093a5b 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #368290 0%,#093a5b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#368290', endColorstr='#093a5b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.co-mainer .container {
+    padding: 60px 40px 80px 40px;
+    text-align: center;
+}
+
+.co-mainer h1 {
+    color: white;
+}
+
+.co-colored {
+    color: #f63136;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 41px;
+    margin: 40px 0 60px;
+    line-height: 44px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 40px 0 60px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    margin: 20px 0 30px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #354950;
+}
+
+.co-mainer p {
+    font-size: 20px;
+    color: white;
+}
+
+ul.co-topmenu {
+    list-style: none;
+    font-size: 18px;
+    font-family: Calibri, Ubuntu, Tahoma, 'Lucida Grande', serif;
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+ul.co-topmenu > li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    position: relative;
+    padding-top: 40px;
+}
+
+.co-topmenu-mainer,
+.co-topmenu-mainer:hover {
+    font-weight: bold;
+    font-size: 22px;
+    color: #40565D;
+    margin-right: 10px;
+}
+
+.co-topmenu-mainer span {
+    padding-left: 10px;
+}
+
+.co-topmenu-mainer img {
+    margin-top: -28px;
+}
+
+.co-auth img {
+    margin-top: -28px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.co-out {
+    position: relative;
+    padding-right: 12px;
+}
+
+.co-chapter {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.co-chapter:hover {
+    background-color: #72B8F2;
+}
+
+.co-chapter.active {
+    background-color: #FF5858;
+}
+
+.co-chapter:hover a,
+.co-chapter.active a {
+    color: white;
+}
+
+.co-out:after {
+    width: 8px;
+    height: 8px;
+    margin-bottom: -4px;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    background-image: url("images/icon-arrow.png");
+    background-image: url("images/icon-arrow.svg"), none;
+    background-size: auto 8px;
+}
+
+.pagination {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    margin: 2px;
+    border-radius: 0 !important;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.pagination > li.active > a {
+    background-color: #00A0D8;
+}
+
+.pagination > li > span,
+.pagination > li > span:hover {
+    border-color: transparent;
+    background-color: transparent;
+    cursor: default;
+}
+
+.co-mainbutton,
+.co-mainbutton:hover,
+.co-mainbutton:focus {
+    background-color: #00A0D8;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px 15px;
+    font-family: 'ComfortaaBold', arial, sans-serif;
+    color: #ffffff;
+    transition: background-color 500ms linear;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.co-mainbutton:hover {
+    background-color: #0082BC;
+    transition: background-color 500ms linear;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #2A2D33;
+    font-family: "Arial Bold",Gadget,sans-serif;
+    color: #818692;
+    font-size: 11px;
+    padding: 35px 0;
+}
+
+footer /deep/ a {
+    color: #97999b;
+}
+
+footer /deep/ a:hover {
+    color: #49c3fb;
+}
+
+.co-informer {
+    float: right;
+}
+
+.co-donatetext {
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.co-inline {
+    display: inline-block;
+}
+
+.co-questions {
+    padding: 0;
+    list-style: none;
+    margin: 0 0 30px;
+}
+
+.co-questions > li {
+    margin: 0;
+    padding: 12px 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+ul.co-popularTags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.co-popularTags > li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.co-question,
+.co-my-question-comment {
+    margin: 70px 140px;
+}
+
+.co-question-title {
+    font-size: 28px;
+    min-height: 100px;
+    line-height: 34px;
+}
+
+.co-my-question-comment-label {
+    width: 40%;
+    font-size: 0.75em;
+}
+
+.co-my-question-comment-box {
+    width: 80%;
+    border-left: solid 1px #d2d2d2;
+    background-color: #f5f5f5;
+}
+
+.co-my-question-comment-box paper-autogrow-textarea {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.co-my-question-comment-box paper-button {
+    margin: 5px;
+}
+
+.co-my-question-comment-box textarea {
+    background-color: transparent;
+    border: none;
+}
+
+.co-question-content {
+    width: 80%;
+}
+
+ul.co-question-position {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+ul.co-question-position > li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.co-arrow {
+    font-family: Tahoma, sans-serif;
+}
+
+ul.co-question-staff {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul.co-question-staff > li {
+    display: inline-block;
+    margin-right: 0;
+    padding: 0;
+}
+
+ul.co-question-staff > li.co-question-staff-level {
+    margin-right: 20px;
+}
+
+.co-flex {
+    display: flex;
+}
+
+.core-overlay-backdrop.core-opened {
+    z-index: 1000 !important;
+}
+
+core-overlay-layer {
+    z-index: 1001 !important;
+}
+
+html /deep/ .co-ok-button {
+    background-color: #00A0D8;
+    color: white;
+}
+
+.co-search {
+
+}
+
+.co-search paper-input-decorator {
+    width: 100%;
+}
+
+.co-search input[type=text] {
+    width: 85%;
+    font-size: 20px;
+}
+
+.co-search paper-button {
+    width: 15%;
+}
+
+.co-search-help-tip {
+    margin-bottom: 45px;
+}
+
+.co-search-help-tip a {
+    font-size: 0.75em;
+    color: #a7a9ab;
+}
+
+a.co-action {
+    border-bottom: dotted 1px #007fb6;
+}
+
+a.co-action:hover {
+    border-bottom: dotted 1px #00b7ff;
+}
+
+.co-questionnaire-title {
+    font-size: 12px;
+    margin-bottom: 20px;
+    border-left: solid 2px rgba(0, 70, 95, 0.29);
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.co-questionnaire-title p {
+    margin-bottom: 3px;
+}
+
+.co-questionnaire-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.co-questionnaire-table td {
+    border: solid 1px #cdcdcd;
+    padding: 5px 10px;
+    line-height: 1.2em;
+}
+
+.co-question-aside {
+    margin-top: 70px;
+}
+
+.co-asideimage-container {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.co-affix.affix-top {
+    position: static;
+    margin-top: 30px;
+    width: 228px;
+}
+
+.co-affix.affix {
+    position: fixed;
+    top: 40px;
+    width: 228px;
+}
+
+.co-question-tip {
+    font-size: 0.86em;
+}
+
+.co-question-tip-title {
+    color: #6c6c6c;
+}
+
+.co-promo-mainer {
+    background-color: rgba(255, 205, 40, 0.48);
+    padding: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #354950;
+    font-weight: normal;
+}
+
+.co-promo-mainer-new {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.co-promo-questionbottom {
+    background-color: rgba(255, 205, 40, 0.48);
+    padding: 15px;
+    margin-left: 140px;
+    margin-top: 35px;
+}
+
+.co-mainvk-liker {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+html /deep/ paper-button::shadow .button-content {
+    padding: 0.5em 0.57em;
+}
